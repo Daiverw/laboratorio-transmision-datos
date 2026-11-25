@@ -275,7 +275,7 @@ footer img{width:44px;height:44px}
 <section id="c1"><div class="wrap">
   <div class="sh">
     <div class="ico"><svg viewBox="0 0 40 40" fill="none" stroke="#4fd1ff" stroke-width="2.4" stroke-linecap="round"><path d="M4 34 C10 10 16 7 36 5"/><path d="M4 34 L36 5" stroke="#93a6c7" stroke-dasharray="3 4" stroke-width="1.6"/></svg></div>
-    <div><small>Etapa 1 de la señal</small><h2>Compresión digital</h2></div>
+    <div><small>Concepto 1 de 5</small><h2>Compresión digital</h2></div>
   </div>
   <div class="two">
     <div>
@@ -302,7 +302,7 @@ footer img{width:44px;height:44px}
 <section id="c2"><div class="wrap">
   <div class="sh">
     <div class="ico"><svg viewBox="0 0 40 40" fill="none" stroke-width="2.4" stroke-linecap="round"><rect x="3" y="13" width="10" height="14" rx="2" stroke="#4fd1ff"/><rect x="27" y="13" width="10" height="14" rx="2" stroke="#a58bff"/><path d="M13 20 H27" stroke="#ffb000" stroke-dasharray="3 3"/></svg></div>
-    <div><small>Etapa 2 de la señal</small><h2>PCM y cómo está formado un sistema PCM con compresión digital</h2></div>
+    <div><small>Concepto 2 de 5</small><h2>PCM y cómo está formado un sistema PCM con compresión digital</h2></div>
   </div>
   <p>PCM, que significa modulación por codificación de pulsos, es el sistema que convierte la voz analógica en una señal digital para que pueda transmitirse.</p>
   <div class="chain-wrap">
@@ -318,7 +318,7 @@ footer img{width:44px;height:44px}
 <section id="c3"><div class="wrap">
   <div class="sh">
     <div class="ico"><svg viewBox="0 0 40 40" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M5 35 L5 5 M5 35 L35 35" stroke="#93a6c7" stroke-width="1.6"/><path d="M5 35 C9 16 18 10 35 7" stroke="#4fd1ff"/><path d="M5 35 C8 20 16 12 35 9" stroke="#ff4f9a"/></svg></div>
-    <div><small>Etapa 3 de la señal</small><h2>¿Qué es la característica de transferencia para la ley A y la ley μ?</h2></div>
+    <div><small>Concepto 3 de 5</small><h2>¿Qué es la característica de transferencia para la ley A y la ley μ?</h2></div>
   </div>
   <div class="two">
     <div>
@@ -359,7 +359,7 @@ footer img{width:44px;height:44px}
 <section id="c4"><div class="wrap">
   <div class="sh">
     <div class="ico"><svg viewBox="0 0 40 40" fill="none"><rect x="3" y="12" width="6" height="16" rx="1.5" fill="#ffb000"/><rect x="11" y="12" width="6" height="16" rx="1.5" fill="#4fd1ff"/><rect x="19" y="12" width="6" height="16" rx="1.5" fill="#ff4f9a"/><rect x="27" y="12" width="6" height="16" rx="1.5" fill="#4fd1ff"/><path d="M35 14 V26" stroke="#93a6c7" stroke-width="2" stroke-dasharray="2 3"/></svg></div>
-    <div><small>Etapa 4 de la señal</small><h2>Trama PCM-TDM</h2></div>
+    <div><small>Concepto 4 de 5</small><h2>Trama PCM-TDM</h2></div>
   </div>
   <p>La trama PCM-TDM es la estructura donde se juntan varios canales PCM para transmitirlos por una sola línea. En el sistema europeo, llamado E1 o PCM-30, la trama tiene 32 time slots de 8 bits cada uno, lo que suma 256 bits. La trama dura 125 µs, que es el intervalo entre dos muestras del mismo canal. Por eso la velocidad total es de 2,048 Mbps.</p>
   <div class="kpis">
@@ -390,7 +390,7 @@ footer img{width:44px;height:44px}
 <section id="c5"><div class="wrap">
   <div class="sh">
     <div class="ico"><svg viewBox="0 0 40 40" fill="none" stroke-width="2.2"><rect x="4" y="7" width="32" height="22" rx="3" stroke="#39e58c"/><path d="M8 22 l4-8 4 8 4-8 4 8 4-8 4 8" stroke="#39e58c" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 34 H26" stroke="#93a6c7" stroke-linecap="round"/></svg></div>
-    <div><small>Etapa 5 de la señal</small><h2>¿Qué es y cómo funciona un visualizador de trama?</h2></div>
+    <div><small>Concepto 5 de 5</small><h2>¿Qué es y cómo funciona un visualizador de trama?</h2></div>
   </div>
   <div class="two">
     <div>
@@ -463,7 +463,7 @@ footer img{width:44px;height:44px}
   </div>
   <p style="margin-top:26px">El video también me ayudó a ver cosas que no estaban en la teoría básica. El video explica que la trama E1 sigue la norma G.704 y que la trama E1 no siempre se usa igual. Hay un formato sin estructura, llamado canal claro, donde la trama no tiene alineación. También hay formatos donde el TS16 no lleva señalización y queda libre para otro canal. El video muestra que la trama tiene formas de detectar problemas. El CRC4 sirve para detectar errores en los bits y las alarmas LOS (pérdida de señal) y LOF (pérdida de trama) avisan cuando algo falla. Eso es justo lo que se revisa con un visualizador de trama. Por último, el video deja claro que todos los equipos deben estar sincronizados con un reloj común, que puede venir de un GPS o de un oscilador interno.</p>
   <p>Esto se relaciona directamente con la práctica anterior, donde se vio cómo el conmutador toma muestras de cada canal y las ordena en el tiempo. Aquí se completa la idea, porque esas muestras ya están codificadas, comprimidas y ordenadas en una trama con su sincronismo.</p>
-  <div class="qa f">
+  <div class="qa" style="border-color:var(--rx)">
     <h3>Relación con mi trabajo</h3>
     <p>Todo esto lo puedo relacionar con mi trabajo como técnico de redes en una empresa de telecomunicaciones en Chile. La telefonía que damos a los clientes es VoIP. Cuando el cliente habla por el teléfono conectado al módem o a la ONT, el equipo toma la voz analógica y la convierte en digital con el códec G.711. Ese códec usa lo mismo que vimos aquí: 8000 muestras por segundo, 8 bits por muestra con ley A y 64 kbps por llamada. O sea, la base de la llamada es PCM, aunque después viaje en paquetes y no en una trama E1.</p>
     <p>La multiplexación también la veo todos los días. En la red HFC muchos canales de televisión, internet y telefonía viajan por el mismo cable coaxial, cada uno en su frecuencia. En la fibra óptica, una sola fibra lleva el servicio de muchos clientes, y en la subida cada ONT transmite en su turno de tiempo, parecido a los time slots de la trama.</p>
